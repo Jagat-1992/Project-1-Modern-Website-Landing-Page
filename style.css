@@ -1,8 +1,17 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Light.woff2);
+}
+@font-face {
+    font-family: kajiro;
+    src: url(./Kajiro\ Bold.woff2);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "gilroy";
+    font-family: gilroy;
 }
 html,body{
     height: 100%;
@@ -93,7 +102,7 @@ html,body{
     left: 0;
     position: absolute;
     line-height: 0.9;    
-    font-family: "kajiro";
+    font-family: kajiro;
     color: #fff;
     font-weight: 100;
     font-size: 11vw;
@@ -102,7 +111,7 @@ html,body{
     padding: 0.8vw 3vw;
     font-size: 3vw;
     margin-top: 2vw;
-    font-family: "kajiro";
+    font-family: kajiro;
     pointer-events: all;
 }
 #heroright{
